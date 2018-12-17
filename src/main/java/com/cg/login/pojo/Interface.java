@@ -30,4 +30,11 @@ public class Interface {
 		this.targetId = targetId;
 	}
 
+	@Override
+	public String toString() {
+		return "Interface [interfaceId=" + interfaceId + ", sourceId=" + sourceId + ", targetId=" + targetId + "]";
+	}
+	
+	
+
 }

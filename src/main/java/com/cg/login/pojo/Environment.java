@@ -48,4 +48,10 @@ public class Environment {
 		this.serverId = serverId;
 	}
 
+	@Override
+	public String toString() {
+		return "Environment [organizationId=" + organizationId + ", businessUnitId=" + businessUnitId + ", projectId="
+				+ projectId + ", environmentId=" + environmentId + ", serverId=" + serverId + "]";
+	}
+
 }

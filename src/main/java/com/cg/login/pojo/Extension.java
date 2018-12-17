@@ -30,4 +30,11 @@ public class Extension {
 		FailedRecords = failedRecords;
 	}
 
+	@Override
+	public String toString() {
+		return "Extension [TotalRecords=" + TotalRecords + ", SuccessRecords=" + SuccessRecords + ", FailedRecords="
+				+ FailedRecords + "]";
+	}
+	
+
 }

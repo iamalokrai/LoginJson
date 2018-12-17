@@ -29,4 +29,11 @@ public class Error {
 		this.errorText = errorText;
 	}
 
+	@Override
+	public String toString() {
+		return "Error [errorType=" + errorType + ", errorCode=" + errorCode + ", errorText=" + errorText + "]";
+	}
+	
+	
+
 }

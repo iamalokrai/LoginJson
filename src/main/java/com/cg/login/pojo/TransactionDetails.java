@@ -26,7 +26,7 @@ public class TransactionDetails {
 		this.businessId = businessId;
 	}
 
-	public String getExecutionTime() {
+	public String getExecutionTime() {		 
 		return executionTime;
 	}
 
@@ -72,6 +72,13 @@ public class TransactionDetails {
 
 	public void setExtension(Extension extension) {
 		this.extension = extension;
+	}
+
+	@Override
+	public String toString() {
+		return "TransactionDetails [correlationId=" + correlationId + ", businessId=" + businessId + ", executionTime="
+				+ executionTime + ", executionPoint=" + executionPoint + ", executionMessage=" + executionMessage
+				+ ", executionStatus=" + executionStatus + ", payload=" + payload + ", extension=" + extension + "]";
 	}
 
 }
